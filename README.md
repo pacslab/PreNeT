@@ -4,6 +4,8 @@ We have developed a framework that allows users to predict the training time of 
 
 After collecting this data, which is shown in the following figure, we trained and evaluated multiple machine learning models for the regression task of predicting training times for individual layers. The best-performing model for each layer type was selected and is now used to provide accurate predictions of training times. This approach helps users estimate model performance and make informed decisions when designing or optimizing neural networks.
 
+You can find more details about this framework and the experiments in our paper published in ACM/SPEC ICPE 2025: [PreNeT-Paper](./docs/Paper_PreNeT_2025.pdf).
+
 ![System Overview](./docs/CFPredOverview.png "System Architecture")
 
 
