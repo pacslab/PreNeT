@@ -22,10 +22,10 @@ git clone https://github.com/pacslab/PreNet.git
 cd PreNet
 ```
 
-2. Create and activate a virtual environment:
+2. Create and activate a conda environment:
 ```bash
-python -m virtualenv venv
-source ./venv/bin/activate
+conda create -n prenet python=3.11 -y
+conda activate prenet
 ```
 
 3. Install the required dependencies:
